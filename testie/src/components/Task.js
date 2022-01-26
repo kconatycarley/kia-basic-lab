@@ -2,10 +2,12 @@ import React from 'react';
 
 const Task = (props) => {
 
-    return (
+return (
         <div className="card">
          <p className="title">{props.title}</p>
         <p>Due: {props.deadline}</p>
+        <p>Time Needed: {props.timeneeded}</p>
+        <p>Difficulty: {props.intensity}</p>
         <p className="descript">Note: {props.description}</p>
     </div>
     )

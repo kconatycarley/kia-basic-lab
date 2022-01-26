@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  background-color: grey;
+  background-color:mediumpurple;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -20,7 +20,7 @@ div {
   display: inline-block;
   vertical-align: top;
   font-family: system-ui;
-  background: #5bb4c4;
+  background:darkorchid;
   color: white;
   text-align: center;
   width: 180px;
@@ -33,10 +33,10 @@ div {
 .title {
   font-weight: bold;
   font-size: 1.2em; 
+  font-style: italic;
 }
 
 .descript {
-  font-weight: lighter;
   color: black;
-  font-size: 1.2em; 
+  font-weight: bold; 
 }
